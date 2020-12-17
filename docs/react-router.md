@@ -30,3 +30,16 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+### Add ```Swithc``` and ```Route``` to a page
+
+```tsx
+<Switch>
+    <Route path="/">
+        <div>Index</div>
+    </Route>
+    <Route path="/d3">
+        <div>D3</div>
+    </Route>
+</Switch>
+```

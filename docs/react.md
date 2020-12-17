@@ -62,3 +62,16 @@ yarn build
 
 # goto build folder in root of this project, all file in that folder
 ```
+
+## Config for React Application
+
+### ```tsconfig.json```
+
+```json
+{
+  "compilerOptions": {
+    ...
+    "baseUrl": "src"
+  }
+}
+```
